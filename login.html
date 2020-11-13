@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Plastmase</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+  <form class="login" action="/" method="post" name="form" onsubmit="return validated()">
+      <h1>Welcome back!</h1>
+      <h2>Login</h2>
+      <div class="social-icons">
+        <img src="google.jpg">
+        <img src="facebook.png">
+        <img src="apple.png">
+      </div>
+      <div class="field"><input autocomplete="on" type="text" placeholder="Email" name="email"></div>
+      <div id="email_error">Please fill up your Email</div>
+      <div class="field"><input type="password" placeholder="Password" name="password"></div>
+      <div id="pass_error">Please fill up your Password</div>
+      <div class="forgot-password"><label for="checkbox"><input id="checkbox" name="checkbox" class="checkbox--forget" type="checkbox" /><span class="icon--checkbox fa fa-check"></span>Remember me</label>
+        <a href="Forgot_Password.html">Forgot password?</a></div>
+      <div class="submit"><input type="submit" value="Login" id="login-form-submit"></div>
+      <span class="new-member">Don't have an account?  <a href="register.html" class="daftar-dulu">Get Started</a></span>
+  </form>
+</body>
+<script type="text/javascript" src="login.js"></script>
+</html>
