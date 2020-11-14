@@ -1,0 +1,150 @@
+body {
+    background-color:#a16169be ;
+}
+.profile .header {
+   text-align: center;
+   padding: 20px;
+}
+.profile .header h1 {
+    color:#2D090E;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d090e63 ;
+    font-family: Futura Bk Bt;
+    font-size: 15 px;
+    font-weight: lighter;
+}
+.menu li {
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: #2D090E;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.profile .badan .sidebar {
+    float: left;
+    width: 275px;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.sidebar li {
+    float: left;
+    margin-bottom: 50px;
+}
+.sidebar li a {
+    color: #2D090E ;
+    text-align: left;
+    font-family: Futura Bk Bt;
+    font-size: medium;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.profile .badan .content {
+    background-color:#2d090e93 ;
+    float: left;
+    width: 750px;
+    height: 100%;
+}
+.badan .content .banner img {
+    min-width: 650px;
+    max-width: 650px;
+}
+.banner {
+    position: relative;
+}
+h2 {
+    position: absolute;
+    left : 190px;
+    top: 123px;
+    color: #2D090E;
+    font-size: 20px;
+    font-family: Futura Bk Bt ;
+}
+h3 {
+    position: absolute;
+    left : 190px;
+    top: 150px;
+    color: #2D090E;
+    font-size: 15px;
+    font-family: Futura Bk Bt ;
+}
+hr {
+    border: 0;
+    background: #A1616A ;
+    height: 1px;
+}
+.content .blog {
+    float: left;
+    align-content: center;
+    margin-left: 20px;
+}
+.bookmark {
+    width: 450px;
+    padding: 25px;
+    margin: 25px auto;
+    background: #e2ced0;
+    border: 1px solid #e2d1d2;
+}
+.bookmark img {
+    min-width: 450px;
+    max-width: 450px;
+    
+    align-content: center;
+}
+.bookmark h1{
+    padding: 0;
+    margin: 0 0 15px;
+    font-weight: normal;
+    color: black;
+    font-family: Goudy Old Style ;
+}
+.bookmark p:last-child{
+    margin: 0;
+}
+.post-info{
+    float: right;
+    font-size: medium;
+    margin: -10px 0 15px;
+    font-family: Futura Bk Bt;
+    color: #2D090E;
+}
+.bookmark-info{
+    float: right;
+    font-size: small;
+    margin: -10px 0 15px;
+    font-family: Futura Bk Bt;
+    color: #2D090E;
+}
+.header .menu-atas ul {
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 40px;
+    
+}
+.menu-atas li{
+    float:left ;
+}
+.menu-atas li a{
+    color: #2D090E ;
+    text-align: left;
+    font-size: xx-large;
+    font-family: Ever After;
+    padding: 40px;
+    text-decoration: none;
+}
+.menu-atas .right {
+    float: right;
+}
