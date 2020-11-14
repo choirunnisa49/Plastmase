@@ -1,0 +1,188 @@
+	body{
+		
+		background-color: #A1616A;
+		color: grey;
+		margin: auto;
+		padding: 30px;
+	}
+	.SearchBar .Menu ul li{
+		list-style: none;
+		display: inline-block;
+		text-decoration: none;
+		margin:auto;
+		padding: 40px;
+		font-family: Futura Bk Bt;
+
+	}
+	.SearchBar .Menu ul li a{
+		text-decoration: none;
+	}
+
+	.container .SearchBar input{
+	   border: 3px ;
+	    height: 40px;
+	    width: 800px;
+	    border-radius: 50px;
+	    text-align: center;
+	    margin:auto;
+	    margin-top: 10px;
+	  
+	    font-family: sans-serif;
+	}
+	.container{
+	
+		margin: auto;
+		padding: 30px;
+		width: 1300px;
+		display: grid;
+		background-color: #eaeaea;
+		justify-content:center;
+
+	}
+	/* Jenis Plastik */
+
+	.container .JenisPlastik img{
+		width:1300px;
+		height: auto;
+	}
+	.container .JenisPlastik h1{
+		font-size: 46px;
+		color: salmon;
+		text-align: center;
+
+	}
+
+	.container .Kotak{
+		
+		display: flex;
+		padding: 30px;
+		justify-content: center;
+		flex-direction: row;
+	}
+	.container .Kotak .KG{
+		height: 250px;
+	}
+
+	.container .Kotak .KG img{
+		width: 250px;
+	}
+
+	.container .Kotak .KPenjelasan{
+		width: 650px;
+		background: #e5cada;
+	}
+
+	.container .Kotak .KPenjelasan p{
+		font-size: 15px;
+		font-family: Futura Bk Bt;
+		text-align: justify;
+		padding: 10px;
+		text-indent: 10px;
+	}
+
+	.container .Kotak .KPenjelasan h2{
+		text-align: center;
+	}
+	.container .Kotak .KPenjelasan h2 a{
+		text-decoration: none;
+	}
+
+
+	/* AlatBahan*/
+
+	.Posting .Judul h1{
+		font-size: 35px;
+		padding: 10px;
+		font-family: Arial;
+		text-align: center;
+		color: #a39197;
+
+	}
+
+	.Posting .Judul p{
+		text-align: right;
+		font-size: 25px;
+	}
+	legend{
+		color: salmon;
+		text-align: left;
+		font-size: 35px;
+	}
+
+	fieldset{
+				width: 86%;
+				height: auto;
+				margin: auto;
+				background-color: #FCEAEC;
+				background-size: 750px;
+				border-color: black;
+				font-size: 15px;
+				font-family: "Arial";
+				color: black;
+				padding: 30px;
+	}
+
+	.Gambar img{
+		width:1300px;
+		height: auto;
+	}
+
+	.IsiPlastik h2{
+		padding: 5px;
+		font-size: 35px;
+		color: #bd9a7a;
+	}
+
+	.IsiPlastik ul li{
+		margin-top: 20px;
+		margin-right: 10px;
+		font-size: 25px;
+		font-family: Futura Bk Bt;
+		text-indent: 25px; 
+	}
+
+	.IsiPlastik ol li{
+		margin-top: 20px;
+		margin-right: 10px;
+		font-size: 25px;
+		font-family: Futura Bk Bt;
+		text-indent: 15px;
+	}
+	/*Cara Pengolahan*/
+	.CaraPengolahan .CP h1{
+		text-align:center;
+		font-size: 45px;
+		color: salmon;
+		padding: 20px;
+
+	}
+	.CaraPengolahan .GambarPengolahan{
+		background: #f8f1e7;
+		font-family: Futura Bk Bt;
+		font-size: 18px;
+	}
+	.CaraPengolahan .GambarPengolahan h1{
+			text-align: center;
+			font-size: 30px;
+			margin-top: 15px;
+	}
+	.CaraPengolahan .GambarPengolahan img{
+		width: 800px;
+		margin: auto;
+		padding: 40px;
+		display: flex;
+		
+	}
+	.CaraPengolahan .GambarPengolahan p{
+		text-align: justify;
+		
+	}
+	.CaraPengolahan .GambarPengolahan h3{
+		text-align: center;
+		color: black;
+	}
+	.CaraPengolahan .GambarPengolahan a{
+		text-align: right;
+
+	}
+
